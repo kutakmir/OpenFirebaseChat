@@ -1,9 +1,12 @@
 # OpenFirebaseChat
 The ultimate fully featured, customizable, UI-independent, high performant, easy to integrate library with a free Firebase backend-as-a-service
 
-# MessageKit
-https://github.com/MessageKit/MessageKit
+# What? Another Firebase Chat? Why?
+I already reached out to most of the authors of Firebase Chat libraries for iOS on GitHub in a hope to join forces and create the ultimate library together.
 
+This is something we can all benefit from.
+
+# Features
 ## Functional Features
 
 - [ ] Text messages
@@ -40,3 +43,10 @@ https://github.com/MessageKit/MessageKit
 - [ ] video streaming
 - [ ] image thumbnails in the chat bubbles
 - [ ] upload manager - resume/cancel files upload
+
+
+# MessageKit
+Although the goal is to create a UI-independent library, we have to start somewhere. The best candidate seems to be:
+https://github.com/MessageKit/MessageKit
+or
+https://github.com/jessesquires/JSQMessagesViewController
