@@ -6,6 +6,11 @@ I already reached out to most of the authors of Firebase Chat libraries for iOS 
 
 This is something we can all benefit from.
 
+# Let's discuss!
+What project to fork?
+https://github.com/kutakmir/OpenFirebaseChat/issues/1
+
+
 # Features
 ## Functional Features
 
@@ -46,8 +51,6 @@ This is something we can all benefit from.
 - [ ] upload manager - resume/cancel files upload
 
 
-# MessageKit
+# UI Library - MessageKit?
 Although the goal is to create a UI-independent library, we have to start somewhere. The best candidate seems to be:
 https://github.com/MessageKit/MessageKit
-or
-https://github.com/jessesquires/JSQMessagesViewController
