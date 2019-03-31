@@ -15,6 +15,7 @@ This is something we can all benefit from.
 - [ ] Stickers
 - [ ] Custom smileys
 - [ ] Emoji support
+- [ ] Animated GIF support
 - [ ] URL previews
 - [ ] Hashtags
 - [ ] Mentions
