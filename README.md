@@ -4,7 +4,7 @@ The ultimate fully featured, customizable, UI-independent, high performant, easy
 # MessageKit
 https://github.com/MessageKit/MessageKit
 
-## Features
+## Functional Features
 
 - [ ] Text messages
 - [ ] Image messages
@@ -13,14 +13,30 @@ https://github.com/MessageKit/MessageKit
 - [ ] Custom smileys
 - [ ] Emoji support
 - [ ] URL previews
-- [ ] hashtags
-- [ ] mentions
-- [ ] group chat permissions
-- [ ] deeplinks
-- [ ] channel colors
-- [ ] channel title images
-- [ ] private/public channels
-- [ ] typing indicators
-- [ ] unread indicators
-- [ ] pagination
-- [ ] offline mode
+- [ ] Hashtags
+- [ ] Mentions
+- [ ] Group chat permissions/roles
+- [ ] Deeplinks
+- [ ] Channel colors
+- [ ] Channel title images
+- [ ] Private/public channels
+- [ ] Typing indicators
+- [ ] Unread indicators
+- [ ] Delete message
+- [ ] Edit message
+- [ ] Participants screen
+- [ ] Channel names - editable
+- [ ] Create a channel name
+- [ ] Invitations to group channels
+- [ ] Reporting participants/messages
+- [ ] Blocking channels/users
+
+## Performance Features
+
+- [ ] Real-time updates to everything
+- [ ] Offline mode
+- [ ] Pagination
+- [ ] async image loading
+- [ ] video streaming
+- [ ] image thumbnails in the chat bubbles
+- [ ] upload manager - resume/cancel files upload
