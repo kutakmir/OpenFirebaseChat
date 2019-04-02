@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChannelAndParticipant" rowHeight="37" id="U5y-g8-EQE" customClass="ChatParticipantTableViewCell" customModule="Points4That" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U5y-g8-EQE" id="LBL-n1-6qa">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LA4-eJ-rWs">
+                        <rect key="frame" x="15" y="12" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rnd-P6-lu7">
+                        <rect key="frame" x="69" y="12" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rnd-P6-lu7" firstAttribute="baseline" secondItem="LA4-eJ-rWs" secondAttribute="baseline" id="6gU-q9-Re2"/>
+                    <constraint firstItem="LA4-eJ-rWs" firstAttribute="top" secondItem="LBL-n1-6qa" secondAttribute="top" constant="12" id="DAk-Vi-SRb"/>
+                    <constraint firstItem="rnd-P6-lu7" firstAttribute="leading" secondItem="LA4-eJ-rWs" secondAttribute="trailing" constant="12" id="Mj6-H4-HaE"/>
+                    <constraint firstAttribute="bottom" secondItem="LA4-eJ-rWs" secondAttribute="bottom" constant="11" id="ZXE-75-OoU"/>
+                    <constraint firstItem="LA4-eJ-rWs" firstAttribute="leading" secondItem="LBL-n1-6qa" secondAttribute="leading" constant="15" id="i03-8z-DsD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="nameLabel" destination="LA4-eJ-rWs" id="1jf-lB-Oyk"/>
+                <outlet property="roleLabel" destination="rnd-P6-lu7" id="J5u-tr-8gW"/>
+            </connections>
+            <point key="canvasLocation" x="-123.5" y="-152.5"/>
+        </tableViewCell>
+    </objects>
+</document>
